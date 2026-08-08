@@ -1,0 +1,137 @@
+        /* Estilos generales del cuerpo de la pag */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            justify-content: center;
+        }
+
+        /* Estilos para la imagen del logo en el encabezado */
+        header img {
+            height: 80px;
+            margin-right: 15px;
+        }
+
+        /* Estilos para el titulo en el encabezado */
+        header h1 {
+            margin: 0;
+            font-size: 60px;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+        .contenedor-menu {
+            background-color: red; 
+            height: 58px;
+        }
+
+        .wrapper {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: darkblue;
+}
+        .contenido {
+            padding-top: 80px;
+        }
+
+        /* estilos para el título principal de la sección de servicios */
+        h2 {
+            color: #510103;
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-family: arial, sans-serif;
+        }
+
+        /* estilos para los subtítulos de las categorías de servicios */
+        h3 {
+            color: #C00;
+            margin: 15px 0;
+            font-size: 23px;
+            font-family: arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            font-family: arial, sans-serif;
+        }
+
+        /* estilos para las tarjetas de servicios */
+        .service-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 15px 0;
+            padding: 15px;
+            width: 90%;
+            max-width: 600px;
+        }
+
+        /* Estilos para el precio dentro de las tarjetas de servicios */
+        .precio {
+            font-weight: bold;
+            color: green;
+        }
+
+        /* estilos de los creditos/copy */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 14px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Contenedor para centrar las tarjetas */
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }

@@ -1,0 +1,86 @@
+/* Estilos generales del cuerpo */
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+}
+
+/* Encabezado principal de la página */
+header {
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* Imagen dentro del encabezado */
+header img {
+    height: 100px; 
+    margin-right: 15px; 
+}
+
+/* Título dentro del encabezado */
+header h1 {
+    margin: 0; 
+    font-size: 90px; 
+}
+
+/* Estilo para el eslogan debajo del encabezado */
+.slogan {
+    background-color: red; 
+    height: 35px; 
+    text-align: center; 
+    color: white; 
+    font-weight: bold; 
+    display: flex;     align-items: center; 
+    justify-content: center; 
+    font-family: arial, sans-serif; 
+}
+
+/* Contenedor de las secciones (tarjetas) */
+.contenedor {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px; 
+    flex-wrap: wrap; 
+}
+
+/* Cada tarjeta o sección individual */
+.seccion {
+    width: 22%; 
+    padding: 10px; 
+    border: 4px solid #CCC; 
+    text-align: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave al hacer hover */
+}
+
+/* Efecto al pasar el cursor sobre una tarjeta */
+.seccion:hover {
+    transform: scale(1.05); /* Agranda ligeramente la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Títulos dentro de cada tarjeta */
+.seccion h1 {
+    color: #C00; 
+    font-size: 30px; 
+}
+
+/* Imagen dentro de cada tarjeta */
+.seccion img {
+    width: 100%; 
+    height: auto; 
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px; 
+    text-align: center; 
+    padding: 12px; 
+    background-color: #333; 
+    color: white; 
+    font-size: 14px; 
+}
